@@ -1,0 +1,67 @@
+body {
+  background-image: url(https://i.pinimg.com/236x/8f/2a/48/8f2a480458c8e4dbbf777326d2e68c9d.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  color: #031b3f;
+}
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36;
+  line-height: 1.5;
+  color: azure;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600 px;
+  background-color: rgb(15, 91, 126);
+}
+form {
+  padding: 30px;
+  background-color: rgb(210, 214, 196);
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #272044;
+}
+.submit-button {
+  margin-left: 10px;
+  background: #031b3f;
+  color: beige;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+  width: 150px;
+  font-size: 16px;
+}
+.poem {
+  font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #031b3f;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
+}
