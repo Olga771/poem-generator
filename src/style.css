@@ -24,13 +24,21 @@ h1 {
   max-width: 600 px;
   background-color: rgb(15, 91, 126);
 }
-form {
-  padding: 30px;
+.form-container {
   background-color: rgb(210, 214, 196);
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
-  border-radius: 10px;
-  display: flex;
   margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  padding: 15px 20px;
+}
+form {
+  display: flex;
+}
+.hint {
+  line-height: 1, 5;
+  margin-top: 8px;
+  font-size: 12px;
+  opacity: 0.6;
 }
 .instructions {
   padding: 16px;
@@ -59,6 +67,9 @@ form {
   border-left: 3px solid #031b3f;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
+.hidden {
+  display: none;
+}
 .poem strong {
   color: 031b3f;
 }
@@ -67,4 +78,18 @@ footer {
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
