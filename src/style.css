@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://i.pinimg.com/236x/8f/2a/48/8f2a480458c8e4dbbf777326d2e68c9d.jpg);
+  background-image: url(https://cdn141.picsart.com/331931279065201.jpg?to=crop&type=webp&r=244x367&q=85);
   font-family: Arial, Helvetica, sans-serif;
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,10 +22,10 @@ h1 {
 .container {
   margin: 120px auto;
   max-width: 600 px;
-  background-color: rgb(15, 91, 126);
+  background-color: rgb(174, 140, 238);
 }
 .form-container {
-  background-color: rgb(210, 214, 196);
+  background-color: rgb(117, 104, 187);
   margin-bottom: 30px;
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
